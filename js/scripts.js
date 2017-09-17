@@ -1,3 +1,4 @@
+"use strict";
 $(function(){
 
 	var carouselList = $("#carousel ul");
@@ -6,6 +7,8 @@ $(function(){
 
 	function changeSlide () {
 		carouselList.animate({'marginLeft':-400}, 500, moveFirstSlide);
+        
+ }
 
 		function moveFirstSlide () {
 			var firstItem = carouselList.find("li:first");
