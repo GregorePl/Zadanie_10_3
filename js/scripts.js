@@ -15,7 +15,7 @@ $(function(){
 			var lastItem = carouselList.find("li:last");
 			lastItem.after(firstItem);
 			carouselList.css({marginLeft:0});
-		}
-	}
+		
+}
 
 })
